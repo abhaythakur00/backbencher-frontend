@@ -1,0 +1,146 @@
+/* login wali css */
+@media only screen and (max-width: 913px) {
+  .login-container0 {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 15px;
+    width: 300px;
+    /* height: 550px; */
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 913px) {
+  .login-container0 {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 15px;
+    width: 350px;
+    /* height: 550px; */
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 15px;
+  }
+}
+body {
+  margin: 0px;
+}
+
+.login-container {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container1 {
+  border: none;
+  /* height: 180px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-con {
+  border: none;
+  font-size: 15px;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+}
+.login-con h1 {
+  /* border: 1px solid black; */
+  position: relative;
+  /* bottom: 12px; */
+}
+.login-con h5 {
+  position: relative;
+  /* bottom: 28px; */
+}
+label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.login-container2 input {
+  height: 30px;
+  width: 100%;
+  border: none;
+  background-color: rgba(229, 229, 229, 0.639);
+  border-radius: 5px;
+  padding: 18px;
+  margin-bottom: 7px;
+  margin-top: 10px;
+}
+.login-butt {
+  width: 100%;
+  cursor: pointer;
+  background-color: rgb(253, 131, 31);
+  color: white;
+  padding: 6px;
+  border-radius: 8px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  border: 1px solid rgb(253, 131, 31);
+}
+.view-but{
+ position: relative;
+ max-width: 100%;
+}
+.view-input{
+  /* max-width: 100%; */
+  padding: 10px;
+  border-radius: 10px;
+}
+.view-button {
+  position: absolute;
+  right: 12px;
+  top: 55%;
+    transform: translateY(-50%);  /* -translate-y-1/2 */
+  color: #4b5563; 
+ border: none;
+    width: 10%;
+}
+/* button:hover
+  {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: black;
+  } */
+.login-con1 {
+  border: none;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+.login-con1 a {
+  /* text-decoration: none; */
+}
+.icon {
+  /* border: 1px solid black; */
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+.icon a {
+  text-decoration: none;
+  color: rgb(253, 131, 31);
+}
+.create-box {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}

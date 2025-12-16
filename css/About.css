@@ -1,0 +1,612 @@
+@media only screen and (max-width: 913px) {
+  .fornt-page {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    border: 1px solid red;
+  }
+
+  .Image-2 {
+    /* width: 48.5%; */
+    /* height: 99.5vh; */
+  }
+  .Image-2 img {
+    width: 100%;
+    height: 100%;
+  }
+  .Hading {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .Hading h1 {
+    font-size: 30px;
+  }
+  .Hading p {
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+  }
+  .buttonn {
+    width: 80%;
+    padding: 10px;
+  }
+  .buttonn button {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    background-color: rgb(255, 115, 0);
+  }
+  .button button:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease;
+  }
+  /* // SEONDE PAGE */
+  .Second-page {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Sec-img {
+    height: 45vh;
+    width: 100%;
+  }
+  .Sec-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .sec-text {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+
+  .Our-Coding p {
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+  }
+
+  .Our-Coding h1 {
+    font-size: 25px;
+  }
+  .Our-mission h1 {
+    font-size: 25px;
+  }
+  .Our-mission p {
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+  }
+  /* THIRD PAGE */
+
+  .Third-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .third-img {
+    width: 100%;
+  }
+  .third-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .third-hading {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .third-hading h1 {
+    font-size: 30px;
+  }
+
+  .third-hading p {
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+  }
+  /* FOURTH PAGE */
+
+  .fourth-page {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hading {
+    padding: 40px;
+  }
+  .hading h1 {
+    font-size: 20px;
+  }
+  .hading p {
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+  }
+
+  .image-3 {
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+  }
+
+  .image-3 img {
+    border: 10px solid rgb(230, 230, 230);
+    height: 36vh;
+    width: 100%;
+    border-radius: 200px;
+  }
+  /* FIVE PAGE */
+  .five-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .image-4 {
+    width: 100%;
+    padding: 50px;
+  }
+  .image-4 img {
+    border: 10px solid rgb(230, 230, 230);
+    width: 100%;
+    height: 35vh;
+    border-radius: 200px;
+  }
+  .hading-2 h1 {
+    font-size: 25px;
+  }
+  .hading-2 {
+    width: 100%;
+    padding: 40px;
+  }
+  .hading-2 p {
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+  }
+  /* SIX PAGE */
+
+  .six-page {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .hading-4 {
+    padding: 30px;
+  }
+  .hading-4 h1 {
+    font-size: 30px;
+  }
+  .hading-4 p {
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+  }
+
+  .image-5 {
+    width: 100%;
+    padding: 50px;
+  }
+
+  .image-5 img {
+    width: 100%;
+    height: 100%;
+  }
+  /* SEVEN PAGE */
+
+  .seven-page {
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hading-5 {
+    border: 2px solid black;
+    padding: 30px;
+  }
+  .hading-5 h1 {
+    font-size: 25px;
+  }
+  .hading-5 p {
+    font-size: 15px;
+    color: rgb(109, 108, 108);
+  }
+
+  .image-6 img {
+    width: 100%;
+    height: 100%;
+  }
+  .image-6 {
+    border: 2px solid black;
+    width: 100%;
+  }
+
+  .image-7 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* EIGHT PAGE */
+  .eight-page {
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image-7 {
+    border: 2px solid black;
+    width: 100%;
+    height: 25vh;
+  }
+  .image-7 img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (min-width: 913px) {
+  .About-container {
+    margin-left: 12rem;
+    background-color: rgba(231, 231, 231, 0.473);
+    /* padding: 10px; */
+  }
+  .Image-2 img {
+    width: 100%;
+    height: 100%;
+  }
+  .Image-2 {
+    width: 48.5%;
+    height: 86.5vh;
+  }
+  .fornt-page {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Hading {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .Hading h1 {
+    font-size: 60px;
+  }
+  .Hading p {
+    font-size: 18px;
+    color: rgb(133, 131, 131);
+  }
+  .buttonn {
+    width: 50%;
+  }
+  .buttonn button {
+    width: 100%;
+    height: 10vh;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    background-color: rgb(255, 115, 0);
+  }
+
+  /* // SEONDE PAGE */
+  .Second-page {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    background-color: white;
+  }
+
+  .Sec-img {
+    width: 50%;
+    /* border: 2px solid black; */
+  }
+  .Sec-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .sec-text {
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 47px;
+    flex-wrap: wrap;
+  }
+
+  .Our-Coding p {
+    font-size: 17px;
+    color: rgb(109, 108, 108);
+  }
+
+  .Our-mission p {
+    font-size: 17px;
+    color: rgb(109, 108, 108);
+  }
+  /* THIRD PAGE */
+
+  .Third-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .third-img {
+    width: 50%;
+  }
+  .third-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .third-hading {
+    width: 50%;
+    padding: 40px;
+  }
+
+  .third-hading h1 {
+    font-size: 35px;
+    padding: 10px;
+  }
+
+  .third-hading p {
+    font-size: 19px;
+    color: rgb(109, 108, 108);
+    padding: 16px;
+  }
+  /* FOURTH PAGE */
+
+  .fourth-page {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    padding: 10px;
+  }
+
+  .hading {
+    padding: 50px;
+    width: 50%;
+  }
+  .hading p {
+    font-size: 19px;
+    color: rgb(109, 108, 108);
+  }
+
+  .image-3 {
+    width: 35%;
+    border: 2px solid  black;
+  }
+
+  .image-3 img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 23px 31px 17px rgba(7, 0, 0, 0.2);
+    /* border-radius: 200px; */
+    /* border: 2px solid black; */
+  }
+  /* FIVE PAGE */
+  .five-page {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .image-4 {
+    width: 40%;
+    padding: 40px;
+  }
+  .image-4 img {
+    border: 10px solid rgb(230, 230, 230);
+    width: 90%;
+    height: 58vh;
+    border-radius: 200px;
+  }
+  .hading-2 {
+    width: 60%;
+    padding: 60px;
+  }
+  .hading-2 p {
+    font-size: 19px;
+    color: rgb(109, 108, 108);
+    padding-top: 20px;
+  }
+  /* SIX PAGE */
+
+  .six-page {
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .hading-4 {
+    padding: 25px;
+  }
+  .hading-4 p {
+    font-size: 20px;
+    color: rgb(109, 108, 108);
+    padding-top: 25px;
+  }
+
+  .image-5 {
+    width: 35.9%;
+  }
+
+  .image-5 img {
+    width: 100%;
+    height: 100%;
+  }
+  /* SEVEN PAGE */
+
+  .seven-page {
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hading-5 {
+    padding: 50px;
+  }
+  .hading-5 h1 {
+    font-size: 30px;
+  }
+  .hading-5 p {
+    font-size: 17px;
+    color: rgb(109, 108, 108);
+  }
+
+  .image-6 img {
+    width: 100%;
+    height: 100%;
+  }
+  .image-6 {
+    border: 2px solid black;
+    width: 32%;
+  }
+
+  /* EIGHT PAGE */
+}
+.eight-page {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60vh;
+}
+
+.hading-6 {
+  border: 2px solid black;
+  width: 60%;
+  height: 60vh;
+}
+.image-7 {
+  border: 2px solid black;
+  width: 40%;
+  height: 60vh;
+}
+.image-7 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* NINE PAGE */
+.nine-page {
+  border: 2px solid black;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hading-7 {
+  border: 2px solid black;
+  width: 60%;
+  height: 70vh;
+}
+.image-8 {
+  border: 2px solid black;
+  width: 40%;
+  height: 70vh;
+}
+.image-8 img {
+  width: 100%;
+  height: 100%;
+}
+.ten-page {
+  border: 2px solid black;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.manegment-person {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15%;
+}
+
+.manegment-person-photo {
+  width: 11%;
+  height: 19vh;
+  margin: 40px;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+.manegment-person-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+.manegment-person-photo-2 {
+  width: 11%;
+  height: 19vh;
+  margin: 40px;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+.manegment-person-photo-2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+
+.Eleven-page {
+  width: 100%;
+  height: 65vh;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Social-Initiatives {
+  width: 60%;
+  height: 65vh;
+  border: 2px solid black;
+}
+.Social-Initiatives h1 {
+}
+.Social-Initiatives-image {
+  width: 40%;
+  height: 65vh;
+  border: 2px solid black;
+}
+
+.Social-Initiatives-image img {
+  width: 100%;
+  height: 100%;
+}

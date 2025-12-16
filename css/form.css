@@ -1,0 +1,157 @@
+@media only screen and (max-width: 913px) {
+
+  .row{
+    flex-direction: column;
+  }
+  .id-card{
+    width: 80%;
+  }
+}
+
+
+
+/* ---- LAYOUT ---- */
+.big-conn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f2f4f7;
+  padding-bottom: 50px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin-top: 40px;
+  justify-content: end;
+}
+
+/* ---- CARD ---- */
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  /* flex: 5; */
+  width: 30%;
+}
+
+.form-card {
+  width: 50%;
+}
+
+/* ---- FORM FIELDS ---- */
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+/* ---- BUTTONS ---- */
+.btn {
+  width: 100%;
+  background: #007bff;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #0056c6;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.small {
+  flex: 1;
+  padding: 8px;
+}
+
+/* ---- ID CARD ---- */
+.id-card {
+  /* border: 2px solid #000; */
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  /* background: #fff; */
+  background: linear-gradient(135deg, #0b74da, #2bb673);
+  color: white;
+}
+
+.card-ab-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 120%; */
+}
+
+.id-meta {
+  font-size: 14px;
+  /* color: #555; */
+}
+
+.photo img {
+  width: 85px;
+  height: 90px;
+  /* border: 1px solid #000; */
+  object-fit: cover;
+  /* border-radius: 4px; */
+}
+
+.card-ab-2 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---- TYPO ---- */
+.muted {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-card {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  #previewBlock {
+    width: 100%;
+    max-width: 500px;
+  }
+}
